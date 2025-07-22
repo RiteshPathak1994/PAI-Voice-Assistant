@@ -23,4 +23,26 @@ An open-source AI-powered assistant for students, teachers & parents, built with
 ---
 
 ## 📦 Project Structure
+PAI-Voice-Assistant/
+├── backend/              # Node.js API
+│   ├── package.json
+│   └── src/
+│       ├── controllers/
+│       ├── routes/
+│       └── app.js
+├── frontend/             # Flutter app
+│   ├── lib/
+│   │   ├── screens/
+│   │   ├── widgets/
+│   │   └── main.dart
+│   └── pubspec.yaml
+├── voicebot/             # Python voice bot (Whisper + TTS)
+│   ├── pai_voicebot.py
+│   └── requirements.txt
+├── docs/                 # Diagrams, screenshots, API docs
+│   └── roadmap.md
+├── .gitignore
+├── LICENSE
+└── README.md
+
 
